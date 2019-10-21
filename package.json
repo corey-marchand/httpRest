@@ -1,0 +1,29 @@
+{
+  "name": "httpRest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --id=_id --watch db.json --routes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corey-marchand/httpRest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corey-marchand/httpRest/issues"
+  },
+  "homepage": "https://github.com/corey-marchand/httpRest#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}
